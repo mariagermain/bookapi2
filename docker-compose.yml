@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  bookapi:
+    build:
+      context: ./
+      dockerfile: ./project/docker/Dockerfile
+    image: bookapi_img_mg
+    volumes:
+      - ./:/mnt/app
+    ports:
+      - 15555:5555
