@@ -1,0 +1,6 @@
+Name                         Stmts   Miss  Cover
+------------------------------------------------
+project/main/bookdomain.py      35      6    83%
+project/main/bookrepo.py         2      0   100%
+------------------------------------------------
+TOTAL                           37      6    84%

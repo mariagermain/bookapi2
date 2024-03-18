@@ -20,4 +20,4 @@ echo "Running deploiement tests"
 python3 -m unittest discover -s project -v -p dtest_*.py
 
 echo "Stopping container"
-docker stop bookapi_cb_cnt
+docker-compose -f docker-compose.yml --project-directory . down
